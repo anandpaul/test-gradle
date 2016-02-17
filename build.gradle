@@ -76,8 +76,6 @@ task deploy(dependsOn: war, type: Copy) {
  
           if(deployed) {
           	println("deploy ok.")
-          	 def shutdownScript="$System.env.JBOSS_HOME"+"/bin/jboss-cli.bat --connect /":shutdown/""
-          	 shutdownScript.execute()
           } 
           else { throw new RuntimeException("Deployment failed, see Wildfly logs!") }
  
