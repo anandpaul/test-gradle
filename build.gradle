@@ -41,6 +41,10 @@ jettyRunWar{
 	httpPort = 8181
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.9'
+}
+
 task deploy(dependsOn: war, type: Copy) {
  
      println "configure task deploy"
