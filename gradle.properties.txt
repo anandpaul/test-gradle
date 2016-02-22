@@ -1,0 +1,6 @@
+systemProp.http.proxyHost=dc2proxy1.cfa.vic.gov.au
+systemProp.http.proxyPort=3128
+#systemProp.http.proxyUser=AcclimationSupport
+#systemProp.http.proxyPassword=sY12?V7Y16DdT35V
+#systemProp.http.auth.ntlm.domain=CFA
+#systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost
